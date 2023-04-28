@@ -117,14 +117,14 @@ const About = () => {
           className="About_left"
           animate={controls6}
         >
-          <div class="btn-group4">
-            <a class="btn4">
+          <div className="btn-group4">
+            <a className="btn4">
               <span className="Spann"></span>
               <span className="Spann"></span>
               <span className="Spann"></span>
               <span className="Spann"></span>
               <div className="About_left_div">
-                <h1>About Me</h1>
+                <h1 style={{ marginTop: 50 }}>About Me</h1>
                 <h5>Front-end developer</h5>
                 <p style={{ textTransform: "uppercase" }}>
                   I'm Belamri Islam, an experienced front-end developer from
@@ -155,8 +155,8 @@ const About = () => {
           className="About_left"
           animate={controls7}
         >
-          <div class="btn-group4">
-            <a class="btn4">
+          <div className="btn-group4">
+            <a className="btn4">
               <span className="Spann"></span>
               <span className="Spann"></span>
               <span className="Spann"></span>
@@ -187,9 +187,9 @@ const About = () => {
                         do my best to respond as soon as possible.
                       </p>
                     </div>
-                    <div class="btn-group10">
+                    <div className="btn-group10">
                       <p>Name</p>
-                      <a class="btn10">
+                      <a className="btn10">
                         <span className="Spann"></span>
                         <span className="Spann"></span>
                         <span className="Spann"></span>
@@ -202,9 +202,9 @@ const About = () => {
                         />
                       </a>
                     </div>
-                    <div class="btn-group10">
+                    <div className="btn-group10">
                       <p>Email</p>
-                      <a class="btn10">
+                      <a className="btn10">
                         <span className="Spann"></span>
                         <span className="Spann"></span>
                         <span className="Spann"></span>
@@ -217,9 +217,9 @@ const About = () => {
                         />
                       </a>
                     </div>
-                    <div class="btn-group11">
+                    <div className="btn-group11">
                       <p>Message</p>
-                      <a class="btn11">
+                      <a className="btn11">
                         <span className="Spann"></span>
                         <span className="Spann"></span>
                         <span className="Spann"></span>
@@ -231,7 +231,7 @@ const About = () => {
                         />
                       </a>
                     </div>
-                    <div class="button_container">
+                    <div className="button_container">
                       <input
                         className="btn"
                         onClick={() => {

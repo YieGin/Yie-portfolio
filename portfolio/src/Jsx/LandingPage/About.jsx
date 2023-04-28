@@ -124,7 +124,7 @@ const About = () => {
               <span className="Spann"></span>
               <span className="Spann"></span>
               <div className="About_left_div">
-                <h1 style={{ marginTop: 50 }}>About Me</h1>
+                <h1>About Me</h1>
                 <h5>Front-end developer</h5>
                 <p style={{ textTransform: "uppercase" }}>
                   I'm Belamri Islam, an experienced front-end developer from

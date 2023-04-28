@@ -22,6 +22,8 @@
   top: 0;
   transition: all 2s cubic-bezier(.29,.04,.52,1);
   background-color: black;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .logo {
@@ -254,7 +256,7 @@ ul {
   .Humberger_mune {
     display: flex;
     flex-direction: column;
-    padding-right: 2%;
+    padding-right: 5%;
     row-gap: 5px;
     cursor: pointer;
     margin-left: auto;
@@ -303,5 +305,15 @@ ul {
     right: 300px;
     transition: all 1s cubic-bezier(.29,.04,.52,1);
   }
-  
+}
+
+@media only screen and (max-width: 450px) {
+  .Humberger_mune {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    row-gap: 5px;
+    cursor: pointer;
+    margin-left: auto;
+  }
 }

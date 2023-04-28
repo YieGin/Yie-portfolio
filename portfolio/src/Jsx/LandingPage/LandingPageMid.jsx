@@ -18,17 +18,11 @@ const LandingPageMid = ({ scrollref }) => {
   const controls10 = useAnimation();
   const [ref10, inView10] = useInView();
 
-  const controls11 = useAnimation();
-  const [ref11, inView11] = useInView();
-
   const controls12 = useAnimation();
   const [inView12] = useInView();
 
   const controls13 = useAnimation();
   const [inView13] = useInView();
-
-  const controls14 = useAnimation();
-  const [ref14, inView14] = useInView();
 
   const controls15 = useAnimation();
   const [ref15, inView15] = useInView();
@@ -46,12 +40,6 @@ const LandingPageMid = ({ scrollref }) => {
   }, [controls10, inView10]);
 
   useEffect(() => {
-    if (inView11) {
-      controls11.start("visible");
-    }
-  }, [controls11, inView11]);
-
-  useEffect(() => {
     if (inView12) {
       controls12.start("visible");
     }
@@ -62,12 +50,6 @@ const LandingPageMid = ({ scrollref }) => {
       controls13.start("visible");
     }
   }, [controls13, inView13]);
-
-  useEffect(() => {
-    if (inView14) {
-      controls14.start("visible");
-    }
-  }, [controls14, inView14]);
 
   useEffect(() => {
     if (inView15) {
@@ -326,106 +308,6 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://github.com/YieGin/lamborghini_2.0"
-                >
-                  <div className="btn-group15">
-                    <a className="btn15">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      Check code
-                    </a>
-                  </div>
-                </a>
-              </div>
-            </figcaption>
-            <i className="ion-ios-home-outline"></i>
-          </figure>
-        </motion.div>
-        <motion.div
-          ref={ref11}
-          variants={textScrollVariantss}
-          initial="hidden"
-          className="ImagePage6_text2"
-          animate={controls11}
-        >
-          <figure className="snip1401">
-            <img className="ImagePage7" src={Image3} alt="" />
-            <figcaption className="Figcaption">
-              <h1 className="Page6_Text">SUPER DRY</h1>
-              <p className="Page6_Text-Bigger">
-                An example of responsive website appealing to high-end customers
-                been done for a purpose of skill showcase
-              </p>
-              <div className="Check_box">
-                <div className="btn-group15">
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://yiegin.github.io/shopping-Website/"
-                    className="btn15"
-                  >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    View Website
-                  </a>
-                </div>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://github.com/YieGin/shopping-Website"
-                >
-                  <div className="btn-group15">
-                    <a className="btn15">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      Check code
-                    </a>
-                  </div>
-                </a>
-              </div>
-            </figcaption>
-            <i className="ion-ios-home-outline"></i>
-          </figure>
-        </motion.div>
-        <motion.div
-          ref={ref14}
-          variants={textScrollVariantss}
-          initial="hidden"
-          className="ImagePage6_text"
-          animate={controls14}
-        >
-          <figure className="snip1401">
-            <img className="ImagePage7" src={Image7} alt="" />
-            <figcaption className="Figcaption">
-              <h1 className="Page6_Text">INSTAGRAM</h1>
-              <p className="Page6_Text-Bigger">
-                An example of responsive website appealing to high-end customers
-                been done for a purpose of skill showcase
-              </p>
-              <div className="Check_box">
-                <div className="btn-group15">
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://yiegin.github.io/Instagram-_2.0/"
-                    className="btn15"
-                  >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    View Website
-                  </a>
-                </div>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://github.com/YieGin/Instagram-_2.0"
                 >
                   <div className="btn-group15">
                     <a className="btn15">

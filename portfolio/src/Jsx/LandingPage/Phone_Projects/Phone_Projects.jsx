@@ -81,7 +81,7 @@ function Phone_Projects() {
               </a>
             </div>
             <div className="btn-phone-2">
-              <a target="_blank" href="https://github.com/YieGin/Instagram-app">
+              <a target="_blank" href="https://github.com/YieGin/Spotfiy_app">
                 <span>Check code</span>
               </a>
             </div>

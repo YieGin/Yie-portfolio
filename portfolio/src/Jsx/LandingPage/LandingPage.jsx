@@ -352,16 +352,17 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                     using HTML & CSS/SCSS, as well as powering my websites with
                     JavaScript/React for over 2 years. Recently, I have also
                     gained experience in React Native for mobile app
-                    development, Next.js for server-side rendering and Tailwind
-                    CSS for faster UI development. I have also started using
-                    Jest for testing my applications and ensuring their
-                    reliability. Additionally, I have experience using Bitbucket
-                    for version control and collaborative development. I enjoy
-                    solving design problems by utilizing my creativity in
-                    simple, yet elegant solutions that enhance the user's
-                    experience. The challenge of creating designs is something
-                    that I genuinely enjoy, and of course, I am incredibly
-                    competitive and driven at work and in my personal life.
+                    development, Next.js for server-side rendering, and Tailwind
+                    CSS for faster UI development. I have used Git/GitHub and
+                    Bitbucket for version control and collaborative development,
+                    as well as Jest for testing my applications and ensuring
+                    their reliability. I enjoy solving design problems by
+                    utilizing my creativity to find simple, yet elegant
+                    solutions that enhance the user's experience. The challenge
+                    of creating designs is something that I genuinely enjoy, and
+                    of course, I am incredibly competitive and driven both at
+                    work and in my personal life. If you'd like to see more of
+                    my work, please check out my portfolio.
                   </p>
                 </div>
               </a>

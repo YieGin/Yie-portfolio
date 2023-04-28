@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Yie-portfolio/static/css/main.5dc2f011.css",
-    "main.js": "/Yie-portfolio/static/js/main.54fd4e0c.js",
+    "main.css": "/Yie-portfolio/static/css/main.22c1ccfd.css",
+    "main.js": "/Yie-portfolio/static/js/main.e0daa058.js",
     "static/media/4.png": "/Yie-portfolio/static/media/4.d989655f9d3e21aeec6d.png",
     "static/media/8.png": "/Yie-portfolio/static/media/8.0d26f58a0eaaf5603604.png",
     "static/media/9.png": "/Yie-portfolio/static/media/9.d915633cd624724404a8.png",
@@ -12,11 +12,11 @@
     "static/media/12.png": "/Yie-portfolio/static/media/12.7ad9f5fc469cae2b2db5.png",
     "static/media/13.png": "/Yie-portfolio/static/media/13.de02732c43ec76a25c2d.png",
     "index.html": "/Yie-portfolio/index.html",
-    "main.5dc2f011.css.map": "/Yie-portfolio/static/css/main.5dc2f011.css.map",
-    "main.54fd4e0c.js.map": "/Yie-portfolio/static/js/main.54fd4e0c.js.map"
+    "main.22c1ccfd.css.map": "/Yie-portfolio/static/css/main.22c1ccfd.css.map",
+    "main.e0daa058.js.map": "/Yie-portfolio/static/js/main.e0daa058.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dc2f011.css",
-    "static/js/main.54fd4e0c.js"
+    "static/css/main.22c1ccfd.css",
+    "static/js/main.e0daa058.js"
   ]
 }

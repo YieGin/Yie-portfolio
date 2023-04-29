@@ -4,6 +4,7 @@ import { useAnimation, motion } from "framer-motion";
 import "./style/Phone.scss";
 import Image12 from "../../../Images/12.png";
 import Image13 from "../../../Images/13.png";
+import Image14 from "../../../Images/14.png";
 import Phone_svg from "./Phone_svg";
 
 function Phone_Projects() {
@@ -82,6 +83,37 @@ function Phone_Projects() {
             </div>
             <div className="btn-phone-2">
               <a target="_blank" href="https://github.com/YieGin/Spotfiy_app">
+                <span>Check code</span>
+              </a>
+            </div>
+          </div>
+        </figcaption>
+      </motion.figure>
+      <motion.figure
+        ref={ref1}
+        variants={textScrollVariantss}
+        initial="hidden"
+        className="snip1361"
+        animate={controls1}
+      >
+        <img src={Image14} alt="sample45" />
+        <figcaption>
+          <h3>Instagram clone</h3>
+          <p>
+            An example of responsive website appealing to high-end customers
+            been done for a purpose of skill showcase p
+          </p>
+          <div className="center">
+            <div className="btn-phone-1">
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=XQID-UMXdmM&ab_channel=TheBeginning"
+              >
+                <span>Watch Video</span>
+              </a>
+            </div>
+            <div className="btn-phone-2">
+              <a target="_blank" href="https://github.com/YieGin/Instagram_App">
                 <span>Check code</span>
               </a>
             </div>

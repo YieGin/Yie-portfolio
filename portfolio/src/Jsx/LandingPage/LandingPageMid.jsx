@@ -127,13 +127,17 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
           <figure className="snip1401">
             <img className="ImagePage7" src={Image10} alt="" />
             <figcaption className="Figcaption">
-              <h1 className="Page6_Text">Rolex 2.0</h1>
-              <p className="Page6_Text-Bigger">
-                Due to technical limitations of GitHub pages, this example site
-                is working partially, you may check the code to see work done,
-                this example for a purpose of skill showcase React hooks / Redux
-                .
-              </p>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <p className="Name_project" style={{ color: "#fff" }}>
+                  Rolex 2.0
+                </p>
+                <p className="Page6_Text-Bigger">
+                  Due to technical limitations of GitHub pages, this example
+                  site is working partially, you may check the code to see work
+                  done, this example for a purpose of skill showcase React hooks
+                  / Redux .
+                </p>
+              </div>
               <div className="Check_box">
                 <div className="btn-group15">
                   <a
@@ -181,13 +185,18 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
           <figure className="snip1401">
             <img className="ImagePage7" src={Image15} alt="" />
             <figcaption className="Figcaption">
-              <h1 className="Page6_Text">YieGPT</h1>
-              <p className="Page6_Text-Bigger">
-                There seems to be an issue with the OpenAI integration on the
-                website hosted on gh-pages. Unfortunately, I am unable to share
-                my API_KEY with you to resolve this issue. However, you can
-                easily fix it yourself by following guide i put in my github.
-              </p>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <p className="Name_project" style={{ color: "#fff" }}>
+                  YieGPT
+                </p>
+                <p className="Page6_Text-Bigger">
+                  There seems to be an issue with the OpenAI integration on the
+                  website hosted on gh-pages. Unfortunately, I am unable to
+                  share my API_KEY with you to resolve this issue. However, you
+                  can easily fix it yourself by following guide i put in my
+                  github.
+                </p>
+              </div>
               <div className="Check_box">
                 <div className="btn-group15">
                   <a
@@ -235,11 +244,15 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
           <figure className="snip1401">
             <img className="ImagePage7" src={Image9} alt="" />
             <figcaption className="Figcaption">
-              <h1 className="Page6_Text">TOURNAMENTS</h1>
-              <p className="Page6_Text-Bigger">
-                An example of responsive website appealing to high-end customers
-                been done for a purpose of skill showcase
-              </p>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <p className="Name_project" style={{ color: "#fff" }}>
+                  TOURNAMENTS
+                </p>
+                <p className="Page6_Text-Bigger">
+                  An example of responsive website appealing to high-end
+                  customers been done for a purpose of skill showcase
+                </p>
+              </div>
               <div className="Check_box">
                 <div className="btn-group15">
                   <a
@@ -285,11 +298,15 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
           <figure className="snip1401">
             <img className="ImagePage7" src={Image8} alt="" />
             <figcaption className="Figcaption">
-              <h1 className="Page6_Text">LAMBORGHINI</h1>
-              <p className="Page6_Text-Bigger">
-                An example of responsive website appealing to high-end customers
-                been done for a purpose of skill showcase
-              </p>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <p className="Name_project" style={{ color: "#fff" }}>
+                  LAMBORGHINI
+                </p>
+                <p className="Page6_Text-Bigger">
+                  An example of responsive website appealing to high-end
+                  customers been done for a purpose of skill showcase
+                </p>
+              </div>
               <div className="Check_box">
                 <div className="btn-group15">
                   <a

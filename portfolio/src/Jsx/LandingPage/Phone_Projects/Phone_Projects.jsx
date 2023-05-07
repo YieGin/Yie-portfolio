@@ -21,6 +21,22 @@ function Phone_Projects() {
     }
   }, [controls1, inView1]);
 
+  const controls2 = useAnimation();
+  const [ref2, inView2] = useInView();
+  useEffect(() => {
+    if (inView2) {
+      controls2.start("visible");
+    }
+  }, [controls2, inView2]);
+
+  const controls3 = useAnimation();
+  const [ref3, inView3] = useInView();
+  useEffect(() => {
+    if (inView3) {
+      controls3.start("visible");
+    }
+  }, [controls3, inView3]);
+
   return (
     <div className="Phone_box">
       <Phone_svg />
@@ -59,11 +75,11 @@ function Phone_Projects() {
         </figcaption>
       </motion.figure>
       <motion.figure
-        ref={ref1}
+        ref={ref2}
         variants={textScrollVariantss}
         initial="hidden"
         className="snip1361"
-        animate={controls1}
+        animate={controls2}
       >
         <img src={Image12} alt="sample45" />
         <figcaption>
@@ -90,11 +106,11 @@ function Phone_Projects() {
         </figcaption>
       </motion.figure>
       <motion.figure
-        ref={ref1}
+        ref={ref3}
         variants={textScrollVariantss}
         initial="hidden"
         className="snip1361"
-        animate={controls1}
+        animate={controls3}
       >
         <img src={Image14} alt="sample45" />
         <figcaption>

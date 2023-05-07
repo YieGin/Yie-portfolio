@@ -35,15 +35,11 @@
   top: 39px;
   right: 14px;
 }
-
-
-.Page6_Text {
-  color: rgb(255, 255, 255);
-  margin-right: 0%;
-  text-align: justify;
-  width: 100%;
-  margin-left: 15%;
+.Name_project {
+  font-size: 25px;
+  font-weight: bold;
 }
+
 .ImagePage6_text {
   width: 100%;
   display: flex;
@@ -131,6 +127,7 @@
   transform: translateX(-30px);
   margin: 0;
   text-align: center;
+  margin-bottom: 5px;
   line-height: 22px;
   text-align: justify;
   color: rgba(255, 255, 255, 0.802);

@@ -295,14 +295,15 @@
     padding-top: 10px;
   }
   .snip1401 p {
-    font-size: 18px;
+    font-size: 15px;
     padding-left: 20%;
     padding-right: 0;
     width: 100%;
-    line-height: 28px;
+    line-height: 25px;
   }
   .Page6_Text {
     margin-left: 20%;
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 821px) {
@@ -319,13 +320,14 @@
   .Page6_Text {
     font-size: 20px;
     margin-left: 18%;
+    margin-bottom: 2%;
   }
   .snip1401 p {
-    font-size: 15px;
+    font-size: 13px;
     padding-left: 20%;
     padding-right: 0;
     width: 100%;
-    line-height: 22px;
+    line-height: 20px;
   }
 }
 
@@ -356,14 +358,17 @@
     text-align: justify;
   }
   .snip1401 p {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 11px;
+    line-height: 12px;
     padding-left: 20%;
     padding-right: 0;
     width: 100%;
   }
   .Page6_Text {
     font-size: 13px;
+    padding-left: 0;
+    margin-left: 8%;
+    margin-bottom: 1%;
   }
   .Porjects_text {
     font-size: 25px;
@@ -400,14 +405,14 @@
     max-width: 95%;
   }
   .snip1401 p {
-    font-size: 9.5px;
+    font-size: 8px;
     padding-left: 25%;
     padding-right: 0;
-    line-height: 18px;
+    line-height: 13px;
   }
   .Page6_Text {
     font-size: 13px;
-    padding-left: 6%;
+    padding-left: 0;
   }
   .btn-group15 {
     margin: 5px;
@@ -427,12 +432,12 @@
 @media only screen and (max-width: 395px) {
   .Page6_Text {
     font-size: 13px;
-    padding-left: 3%;
+    padding-left: 0;
   }
   .snip1401 p {
     font-size: 8px;
     padding-left: 25%;
     padding-right: 0;
-    line-height: 18px;
+    line-height: 13px;
   }
 }

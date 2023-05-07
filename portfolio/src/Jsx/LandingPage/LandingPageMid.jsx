@@ -2,14 +2,13 @@ import React, { forwardRef, useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import "./styles/LandingPageMid.scss";
 import { useInView } from "react-intersection-observer";
-import Image3 from "../../Images/4.png";
-import Image7 from "../../Images/7.png";
 import Image8 from "../../Images/8.png";
 import Image9 from "../../Images/9.png";
 import Image10 from "../../Images/10.png";
 import Image11 from "../../Images/11.png";
+import Image15 from "../../Images/15.png";
 import PhoneProjects from "./Phone_Projects/Phone_Projects";
-const LandingPageMid = ({ scrollref }) => {
+const LandingPageMid = ({ scrollref }, ref) => {
   const textScrollVariantss = {
     visible: { opacity: 1, right: 0 },
     hidden: { opacity: 0 },
@@ -119,11 +118,11 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
       </div>
       <div className="GapWork">
         <motion.div
-          ref={ref16}
+          ref={ref15}
           variants={textScrollVariantss}
           initial="hidden"
-          className="ImagePage6_text2"
-          animate={controls16}
+          className="ImagePage6_text"
+          animate={controls15}
         >
           <figure className="snip1401">
             <img className="ImagePage7" src={Image10} alt="" />
@@ -155,6 +154,60 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://github.com/YieGin/Rolex_2.0
+"
+                >
+                  <div className="btn-group15">
+                    <a className="btn15">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      Check code
+                    </a>
+                  </div>
+                </a>
+              </div>
+            </figcaption>
+            <i className="ion-ios-home-outline"></i>
+          </figure>
+        </motion.div>
+        <motion.div
+          ref={ref16}
+          variants={textScrollVariantss}
+          initial="hidden"
+          className="ImagePage6_text2"
+          animate={controls16}
+        >
+          <figure className="snip1401">
+            <img className="ImagePage7" src={Image15} alt="" />
+            <figcaption className="Figcaption">
+              <h1 className="Page6_Text">YieGPT</h1>
+              <p className="Page6_Text-Bigger">
+                There seems to be an issue with the OpenAI integration on the
+                website hosted on gh-pages. Unfortunately, I am unable to share
+                my API_KEY with you to resolve this issue. However, you can
+                easily fix it yourself by following guide i put in my github.
+              </p>
+              <div className="Check_box">
+                <div className="btn-group15">
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=3LSx4XAqoPI&ab_channel=TheBeginning
+                    "
+                    className="btn15"
+                  >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Watch Video
+                  </a>
+                </div>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/YieGin/Yie-GPT
 "
                 >
                   <div className="btn-group15">
@@ -223,62 +276,10 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
           </figure>
         </motion.div>
         <motion.div
-          ref={ref15}
-          variants={textScrollVariantss}
-          initial="hidden"
-          className="ImagePage6_text2"
-          animate={controls15}
-        >
-          <figure className="snip1401">
-            <img className="ImagePage7" src={Image11} alt="" />
-            <figcaption className="Figcaption">
-              <h1 className="Page6_Text">BEAUTYBAY</h1>
-              <p className="Page6_Text-Bigger">
-                Due to technical limitations of GitHub pages, this example site
-                is working partially, you may check the code to see work done,
-                this example for a purpose of skill showcase FullStack.
-                React.hooks / Redux.toolkit / REST API.
-              </p>
-              <div className="Check_box">
-                <div className="btn-group15">
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://www.youtube.com/watch?v=ZtX079uxZjI&ab_channel=TheBeginning"
-                    className="btn15"
-                  >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Watch Video
-                  </a>
-                </div>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://github.com/YieGin/fullstack_beautybay"
-                >
-                  <div className="btn-group15">
-                    <a className="btn15">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      Check code
-                    </a>
-                  </div>
-                </a>
-              </div>
-            </figcaption>
-            <i className="ion-ios-home-outline"></i>
-          </figure>
-        </motion.div>
-        <motion.div
           ref={ref10}
           variants={textScrollVariantss}
           initial="hidden"
-          className="ImagePage6_text"
+          className="ImagePage6_text2"
           animate={controls10}
         >
           <figure className="snip1401">

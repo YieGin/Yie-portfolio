@@ -55,23 +55,23 @@ const Navbar = ({ func }) => {
       </Link>
       <div className="Navbar_right">
         <Link to="/" onClick={func[0]}>
-          <ul class="menu">
-            <li class="li-text">
-              <a class="A-text">WORK</a>
+          <ul className="menu">
+            <li className="li-text">
+              <a className="A-text">WORK</a>
             </li>
           </ul>
         </Link>
         <Link to="/" onClick={func[1]}>
-          <ul class="menu">
-            <li class="li-text">
-              <a class="A-text">HIRE ME</a>
+          <ul className="menu">
+            <li className="li-text">
+              <a className="A-text">HIRE ME</a>
             </li>
           </ul>
         </Link>
         <Link to="./About">
-          <ul class="menu">
-            <li class="li-text">
-              <a class="A-text">CONTACT</a>
+          <ul className="menu">
+            <li className="li-text">
+              <a className="A-text">CONTACT</a>
             </li>
           </ul>
         </Link>

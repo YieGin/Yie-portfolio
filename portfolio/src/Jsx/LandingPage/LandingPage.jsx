@@ -9,7 +9,7 @@ import { useState } from "react";
 import LandingPageMid from "./LandingPageMid";
 import Footer from "../Footer/Footer";
 
-const LandingPage = ({ scrollref }) => {
+const LandingPage = ({ scrollref }, ref) => {
   const [sent, setSent] = useState(false);
   const [userEmail, setUserEmail] = useState("");
   const [userName, setUserName] = useState("");
@@ -161,9 +161,9 @@ const LandingPage = ({ scrollref }) => {
                 onClick={() => {
                   setAbout(true);
                 }}
-                class="btn-group6"
+                className="btn-group6"
               >
-                <a class="btn6">
+                <a className="btn6">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -183,8 +183,8 @@ const LandingPage = ({ scrollref }) => {
             <div className="SOCIAL_row">
               <a id="rotate"> SOCIALS </a>
             </div>
-            <div class="btn-groupmid">
-              <a target="_blank" class="btnmidd">
+            <div className="btn-groupmid">
+              <a target="_blank" className="btnmidd">
                 <span className="Spann"></span>
                 <span className="Spann"></span>
                 <span className="Spann"></span>
@@ -279,8 +279,8 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
       </div>
       <LandingPageMid scrollref={scrollref} />
       <div className="Experiments_div">
-        <div class="btn-groupmid">
-          <a target="_blank" class="btnmid">
+        <div className="btn-groupmid">
+          <a target="_blank" className="btnmid">
             <span className="Spann"></span>
             <span className="Spann"></span>
             <span className="Spann"></span>
@@ -321,7 +321,7 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
             </g>
           </svg>
         </div>
-        <div class="waviy">
+        <div className="waviy">
           <h1 id="hire" style={{ float: "--i:2" }}>
             Hire me
           </h1>
@@ -337,8 +337,8 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
             className="About_left"
             animate={controls6}
           >
-            <div ref={scrollref[1]} class="btn-group4">
-              <a class="btn4">
+            <div ref={scrollref[1]} className="btn-group4">
+              <a className="btn4">
                 <span className="Spann"></span>
                 <span className="Spann"></span>
                 <span className="Spann"></span>
@@ -376,8 +376,8 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
             className="About_right"
             animate={controls11}
           >
-            <div class="btn-group4">
-              <a class="btn4">
+            <div className="btn-group4">
+              <a className="btn4">
                 <span className="Spann"></span>
                 <span className="Spann"></span>
                 <span className="Spann"></span>
@@ -395,9 +395,9 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                           possible.
                         </p>
                       </div>
-                      <div class="btn-group10">
+                      <div className="btn-group10">
                         <p>Name</p>
-                        <a class="btn10">
+                        <a className="btn10">
                           <span className="Spann"></span>
                           <span className="Spann"></span>
                           <span className="Spann"></span>
@@ -410,9 +410,9 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                           />
                         </a>
                       </div>
-                      <div class="btn-group10">
+                      <div className="btn-group10">
                         <p>Email</p>
-                        <a class="btn10">
+                        <a className="btn10">
                           <span className="Spann"></span>
                           <span className="Spann"></span>
                           <span className="Spann"></span>
@@ -425,8 +425,8 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                           />
                         </a>
                       </div>
-                      <div class="btn-group11">
-                        <a class="btn11">
+                      <div className="btn-group11">
+                        <a className="btn11">
                           <span className="Spann"></span>
                           <span className="Spann"></span>
                           <span className="Spann"></span>
@@ -438,7 +438,7 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                           />
                         </a>
                       </div>
-                      <div class="button_container">
+                      <div className="button_container">
                         <input
                           className="btn"
                           onClick={() => {

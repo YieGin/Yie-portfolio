@@ -132,10 +132,8 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                   Rolex 2.0
                 </p>
                 <p className="Page6_Text-Bigger">
-                  Due to technical limitations of GitHub pages, this example
-                  site is working partially, you may check the code to see work
-                  done, this example for a purpose of skill showcase React hooks
-                  / Redux .
+                  An example of responsive website appealing to high-end
+                  customers been done for a purpose of skill showcase
                 </p>
               </div>
               <div className="Check_box">
@@ -143,15 +141,14 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://www.youtube.com/watch?v=asduv9RYcZo&ab_channel=TheBeginning
-                    "
+                    href="https://rolex-2-0.vercel.app"
                     className="btn15"
                   >
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
-                    Watch Video
+                    View Website
                   </a>
                 </div>
                 <a

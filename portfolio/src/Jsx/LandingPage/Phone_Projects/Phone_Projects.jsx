@@ -51,8 +51,8 @@ function Phone_Projects() {
         <figcaption>
           <h3>Shopping App</h3>
           <p>
-            An example of responsive website appealing to high-end customers
-            been done for a purpose of skill showcase p
+            An example of an app designed to appeal to high-end customers has
+            been created with the purpose of showcasing skills.
           </p>
           <div className="center">
             <div className="btn-phone-1">
@@ -85,8 +85,8 @@ function Phone_Projects() {
         <figcaption>
           <h3>Spotfiy clone</h3>
           <p>
-            An example of responsive website appealing to high-end customers
-            been done for a purpose of skill showcase p
+            An example of an app designed to appeal to high-end customers has
+            been created with the purpose of showcasing skills.
           </p>
           <div className="center">
             <div className="btn-phone-1">
@@ -116,8 +116,8 @@ function Phone_Projects() {
         <figcaption>
           <h3>Instagram clone</h3>
           <p>
-            An example of responsive website appealing to high-end customers
-            been done for a purpose of skill showcase p
+            An example of an app designed to appeal to high-end customers has
+            been created with the purpose of showcasing skills.
           </p>
           <div className="center">
             <div className="btn-phone-1">

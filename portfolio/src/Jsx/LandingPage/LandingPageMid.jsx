@@ -132,8 +132,9 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                   Rolex 2.0
                 </p>
                 <p className="Page6_Text-Bigger">
-                  An example of responsive website appealing to high-end
-                  customers been done for a purpose of skill showcase
+                  An example of a website designed to appeal to high-end
+                  customers has been created with the purpose of showcasing
+                  skills.
                 </p>
               </div>
               <div className="Check_box">
@@ -247,7 +248,7 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                 </p>
                 <p className="Page6_Text-Bigger">
                   An example of responsive website appealing to high-end
-                  customers been done for a purpose of skill showcase
+                  customers been done for a purpose of skill showcase.
                 </p>
               </div>
               <div className="Check_box">
@@ -301,7 +302,7 @@ c-341 -385 -793 -890 -1235 -1379 -423 -468 -480 -529 -490 -533 -25 -9 -1715
                 </p>
                 <p className="Page6_Text-Bigger">
                   An example of responsive website appealing to high-end
-                  customers been done for a purpose of skill showcase
+                  customers been done for a purpose of skill showcase.
                 </p>
               </div>
               <div className="Check_box">

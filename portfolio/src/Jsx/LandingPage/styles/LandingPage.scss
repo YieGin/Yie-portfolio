@@ -1591,6 +1591,30 @@ html {
     height: 500px;
     padding-bottom: 100px;
   }
+  .SOCIAL_row {
+    font-size: 12px;
+  }
+  .fill {
+    width: 25px;
+    height: 25px;
+  }
+  .fill_github {
+    fill: rgb(255, 255, 255);
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+  }
+  .Svg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110%;
+    row-gap: 40px;
+    position: relative;
+    top: -400px;
+    transition: all 2s cubic-bezier(.29,.04,.52,1);
+   }
   .About_left_div {
     row-gap: 20px;
     height: 500px;
@@ -1727,7 +1751,17 @@ html {
     height: 750px;
     letter-spacing: 0;
   }
-  
+  .Svg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    row-gap: 40px;
+    position: relative;
+    top: -400px;
+    transition: all 2s cubic-bezier(.29,.04,.52,1);
+   }
 }
 
 @media only screen and (max-width: 540px) {
@@ -1933,6 +1967,7 @@ html {
     font-size: 12px;
     row-gap: 25px;
     height: 80%;
+    margin-top: 20px;
   }
   .btn-group10 > p {
     font-size: 11px;
@@ -1974,7 +2009,7 @@ html {
   }
   .Image1 {
     object-fit: cover;
-    height: 500px;
+    height: 550px;
   }
   .LandingPage_1 {
     height: 500px;

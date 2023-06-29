@@ -6,6 +6,29 @@ import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 
 const Navbar = ({ func }) => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const isVisible = prevScrollPos > currentScrollPos;
+
+      setPrevScrollPos(currentScrollPos);
+      setVisible(isVisible);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
+
+  const navbarStyle = {
+    transform: visible ? "translateY(0)" : "translateY(-100%)",
+    transition: "transform 0.3s ease-in-out",
+  };
+
   const [Humberger_mune, setHumberger_mune] = useState(false);
 
   const textScrollVariants = {
@@ -49,6 +72,7 @@ const Navbar = ({ func }) => {
       initial="hidden"
       className="Navbar_main"
       animate={controls}
+      style={navbarStyle}
     >
       <Link to="./">
         <div className="logo"></div>
@@ -114,7 +138,7 @@ const Navbar = ({ func }) => {
           </div>
           <div className="Humberger_open1">
             <Link to="/" onClick={func[0]}>
-              <a>
+              <a href="...">
                 <h1
                   onClick={() => {
                     setHumberger_mune(false);
@@ -126,7 +150,7 @@ const Navbar = ({ func }) => {
               </a>
             </Link>
             <Link to="/" onClick={func[1]}>
-              <a>
+              <a href="...">
                 <h1
                   onClick={() => {
                     setHumberger_mune(false);
